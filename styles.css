@@ -25,7 +25,8 @@
  .nav-links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap:3rem;
+    grid-row-gap:3rem;
+
     width: 70%;
     font-size: 1rem;
     list-style: none;

@@ -34,11 +34,17 @@
 } 
 
 a{
+    font-weight: bold;
+    color:rgb(247, 238, 238);
     border: 1px solid black;
     padding: 1rem 2rem;
     border-radius: 1rem;
-    background: linear-gradient(90deg, rgba(219,218,239,1) 0%, rgba(56,172,228,0.5215336134453781) 55%, rgba(0,142,255,1) 100%);
+    background: linear-gradient(90deg, rgb(208, 138, 211) 0%, rgba(56,172,228,0.5215336134453781) 55%, rgba(0,142,255,1) 100%);
     
+}
+a:hover{
+    opacity: 80%;
+    color: blue
 }
 .footer-note{
 margin-top: 2rem;

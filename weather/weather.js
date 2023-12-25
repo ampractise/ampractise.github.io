@@ -8,6 +8,11 @@ searchBtn.addEventListener("click", () => {
   checkW(searchBox.value);
 });
 
+searchBox.addEventListener("keypress", (e) => {
+  if(e.key==='Enter')
+  checkW(searchBox.value);
+});
+
 async function checkW(city = "sangli india") {
   if (city === "") {
     document.querySelector(".weather").style.display = "none";

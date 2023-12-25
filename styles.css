@@ -10,40 +10,40 @@
 .container {
     margin: 1rem;
     padding: 1rem;
-    /* display: inline-block; */
-    /* background-color:rgb(228, 228, 228) */
 }
 
 .title {
     display: inline-block;
     background: rgb(34, 193, 195);
     background: linear-gradient(0deg, rgba(34, 193, 195, 1) 6%, rgba(255, 218, 138, 1) 76%);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     padding: .3rem;
     color: white;
     width: 50%;
 }
 
-.nav-links {
+ .nav-links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin:1rem;
-    width: 50%;
-    padding: 1rem;
+    grid-gap:3rem;
+    width: 70%;
     font-size: 1rem;
-    text-shadow: 1px;
-    text-decoration: none;
+    list-style: none;
 
-}
-.link{
-    padding: 0.5rem;
-    text-decoration: none;
+} 
 
-}
 a{
-    text-decoration: none;
-
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background: linear-gradient(90deg, rgba(219,218,239,1) 0%, rgba(56,172,228,0.5215336134453781) 55%, rgba(0,142,255,1) 100%);
+    
 }
+.footer-note{
+margin-top: 2rem;
+}
+
+
 @media screen and (max-width:500px) {
     .title{
         width: 100%;
@@ -53,8 +53,7 @@ a{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin:1rem;
-        text-decoration: none;
-
+        overflow: none;
     }
 
 

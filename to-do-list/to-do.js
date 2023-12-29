@@ -2,7 +2,7 @@ const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
 function addTask() {
-  if (inputBox.value.length <= 3) {
+  if (inputBox.value.length <= 1) {
     alert("You must write task in detail");
   } else if (inputBox.value.length >= 50) {
     alert("Write task in 50 word only");
